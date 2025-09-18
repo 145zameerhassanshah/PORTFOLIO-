@@ -32,7 +32,7 @@ import ghsLogo from "./assets/education_logo/ghs_logo.jpg";
 import mhowLogo from "./assets/work_logo/mhow_logo.jpg";
 import tsmsLogo from "./assets/work_logo/tsms_logo.jpg";
 import tahzeelLogo from "./assets/work_logo/tahzeel_logo.jpg";
-// import bpLogo from "./assets/work_logo/bp.jpg";
+import Safe_CapitalLogo from "./assets/work_logo/trading.jpg";
 
 export const SkillsInfo = [
   {
@@ -130,13 +130,13 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "BeautyProfessional",
+    title: "Safe Capital",
     description:
-      "A full-stack service platform that connects customers with salons, barber shops, massage centers, and beauty providers, offering easy booking, secure payments, multilingual support, and efficient management through a powerful admin panel.",
-    image: mhowLogo, // replace with bpLogo if available
-    tags: ["Vue JS", "MySQL", "PHP", "Laravel", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/145zameerhassanshah/beautyProfessional",
-    webapp: "https://beautyprofessional.projectflux.online/en/home",
+      "Investment & Referral Platform – Built a dynamic system with automated daily returns, 7-level referral commissions, monthly salaries, milestone rewards, withdrawal fee deductions, and a fully editable admin panel with email OTP login, live chat, and customer support.",
+    image: Safe_CapitalLogo,
+    tags: [" JQuery", "MySQL", "PHP", "Laravel", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/145zameerhassanshah/TRADING_APP",
+    webapp: "https://trading.mhow.org/",
   },
   {
     id: 1,
@@ -177,4 +177,5 @@ export const projects = [
     tags: ["AJAX", "JavaScript", "API", "Laravel", "PHP", "HTML", "CSS", "Bootstrap"],
     github: "https://github.com/145zameerhassanshah/inventory-management-system-",
   },
+  
 ];
