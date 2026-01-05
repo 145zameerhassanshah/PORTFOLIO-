@@ -26,7 +26,7 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'UI/UX Designer',
+                'MERN Stack Developer',
                 'Coder',
               ]}
               speed={100}
@@ -40,11 +40,9 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the Laravel full  stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            I am a full-stack developer with over 2 years of experience in building scalable web applications. Skilled in both front-end and back-end development, 
+            I specialize in the Laravel full stack, MERN stack development,
+             and Python programming to create seamless user experiences and efficient, reliable solutions.
           </p>
           {/* Resume Button */}
 <a

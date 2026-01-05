@@ -8,7 +8,10 @@ import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import laravellogo from "./assets/tech_logo/laravellogo.png";
 import phplogo from "./assets/tech_logo/phplogo.png";
-
+import nodeLogo from "./assets/tech_logo/node.png";
+import expressLogo from "./assets/tech_logo/express.png";
+import nextLogo from "./assets/tech_logo/next.png";
+import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import cLogo from "./assets/tech_logo/c.png";
 import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
@@ -17,11 +20,11 @@ import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
-import figmaLogo from "./assets/tech_logo/figma.png";
 
 // Experience Section Logo's
 import asLogo from "./assets/company_logo/aimget_logo.jpg";
 import stLogo from "./assets/company_logo/sizdom_logo.jpg";
+import gbaLogo from "./assets/company_logo/gba_logo.png";
 
 // Education Section Logo's
 import puLogo from "./assets/education_logo/pu_logo.jpg";
@@ -33,6 +36,8 @@ import mhowLogo from "./assets/work_logo/mhow_logo.jpg";
 import tsmsLogo from "./assets/work_logo/tsms_logo.jpg";
 import tahzeelLogo from "./assets/work_logo/tahzeel_logo.jpg";
 import Safe_CapitalLogo from "./assets/work_logo/trading.jpg";
+import carTradezLogo from "./assets/work_logo/cartradez.jpeg";
+import ginvoiceLogo from "./assets/work_logo/ginvoice.jpg";
 
 export const SkillsInfo = [
   {
@@ -44,14 +49,21 @@ export const SkillsInfo = [
       { name: "React JS", logo: reactjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
+      { name: "Next JS", logo: nextLogo },
+
     ],
   },
   {
     title: "Backend",
     skills: [
       { name: "MySQL", logo: mysqlLogo },
+      { name: "MongoDb", logo: mongodbLogo },
       { name: "Laravel", logo: laravellogo },
       { name: "PHP", logo: phplogo },
+      { name: "Node JS", logo: nodeLogo },
+     { name: "Express JS", logo: expressLogo },
+      { name: "Python", logo: pythonLogo },
+
     ],
   },
   {
@@ -71,7 +83,6 @@ export const SkillsInfo = [
       { name: "GitHub", logo: githubLogo },
       { name: "VS Code", logo: vscodeLogo },
       { name: "Postman", logo: postmanLogo },
-      { name: "Figma", logo: figmaLogo },
     ],
   },
 ];
@@ -79,22 +90,32 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: asLogo,
+    img: gbaLogo,
     role: "Fullstack Engineer",
-    company: "Aimget Solution",
-    date: "January 2024 - Present",
+    company: "Ghani Branding Agency",
+    date: "October 2025 - Present",
     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, Laravel, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    skills: ["ReactJS", "PHP", "Laravel", "JavaScript", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "SQL"],
+    skills: ["ReactJS", "PHP", "Laravel", "JavaScript", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "SQL","NodeJS","ExpressJS","MongoDB","NextJS","TypeScript"],
   },
   {
     id: 1,
+    img: asLogo,
+    role: "Fullstack Engineer",
+    company: "Aimget Solution",
+    date: "June 2023 - September 2025",
+    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, Laravel, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    skills: ["ReactJS", "PHP", "Laravel", "JavaScript", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "SQL"],
+  },
+    {
+    id: 2,
     img: stLogo,
     role: "Frontend Intern",
     company: "Sizdom Technology",
-    date: "August 2023 - December 2023",
+    date: "February 2023 - May 2023",
     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, and Bootstrap. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
     skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "Figma"],
   },
+
 ];
 
 export const education = [
@@ -136,8 +157,7 @@ export const projects = [
     image: Safe_CapitalLogo,
     tags: [" JQuery", "MySQL", "PHP", "Laravel", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/145zameerhassanshah/TRADING_APP",
-    webapp: "https://trading.mhow.org/",
-  },
+    webapp: "",},
   {
     id: 1,
     title: "Tahzeel",
@@ -177,5 +197,34 @@ export const projects = [
     tags: ["AJAX", "JavaScript", "API", "Laravel", "PHP", "HTML", "CSS", "Bootstrap"],
     github: "https://github.com/145zameerhassanshah/inventory-management-system-",
   },
-  
+   {
+    id: 5,
+    title: "CarTradez",
+    description:
+      "CarTradez is a user-friendly online platform designed for buying and selling cars. It showcases a wide range of new and used vehicles with detailed listings, images, and specifications. The platform features a modern design with easy search, comparison options, and a contact system, making it simple for buyers and sellers to connect and trade vehicles smoothly and securely.",
+    image: carTradezLogo,
+    tags: ["TypeScript", "JavaScript", "React", "NEXTjs", "HTML", "CSS", "TailwindCSS","MongoDB","NodeJS","ExpressJS"],
+    github: "https://github.com/145zameerhassanshah",
+    webapp: "https://cartradez.com/",
+  },
+   {
+    id: 6,
+    title: "GInVoice",
+    description:
+      "GInvoice Admin Panel is a centralized management system designed to control and monitor all invoicing operations. It allows administrators to manage users, clients, invoices, payments, and reports from a secure dashboard. The panel provides full control over financial data, system settings, and activity tracking, ensuring smooth, organized, and efficient invoice management.",
+    image: ginvoiceLogo,
+    tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Laravel", "PHP"],
+    github: "https://github.com/145zameerhassanshah",
+    webapp: "https://ginvoice.ghani.co/",
+  },
+   {
+    id: 7,
+    title: "Constructive Solutions",
+    description:
+    " Constructive Solutions is a comprehensive platform for construction services, project management, and client collaboration. It showcases various construction solutions, project portfolios, and client testimonials. The platform features a modern design with service listings, contact options, and an admin panel for efficient project tracking and management.",
+    // image: constructiveSolutionsLogo,
+    tags: ["JavaScript", "HTML", "CSS", "Bootstrap", "Laravel", "PHP", "NextJS", "ReactJS"],
+    github: "https://github.com/145zameerhassanshah",
+    webapp: "https://www.constructivesolutions.io/",
+  },
 ];
