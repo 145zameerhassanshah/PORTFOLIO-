@@ -348,7 +348,7 @@ export const projects = [
       "GitHub",
     ],
 
-    github: "",
+    github: "https://github.com/145zameerhassanshah/Healthcare-AI-System",
     webapp: "",
   },
 
@@ -375,8 +375,8 @@ export const projects = [
       "Student Portal",
     ],
 
-    github: "",
-    webapp: "",
+    github: "https://github.com/145zameerhassanshah/spell-be-competiton",
+    webapp: "https://spell.asmmr.org/",
   },
 
   {
@@ -401,7 +401,7 @@ export const projects = [
     ],
 
     github: "",
-    webapp: "",
+    webapp: "https://weorder.wcipk.com/",
   },
 
   {
