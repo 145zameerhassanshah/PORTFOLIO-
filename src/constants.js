@@ -43,7 +43,7 @@ import postmanLogo from "./assets/tech_logo/postman.png";
 // Experience Section Logos
 // =====================================================
 
-import bracketsLogo from "./assets/company_logo/brackets_logo.png";
+import bracketsLogo from "./assets/company_logo/brackets_logo.jpeg";
 import gbaLogo from "./assets/company_logo/gba_logo.png";
 import asLogo from "./assets/company_logo/aimget_logo.jpg";
 import stLogo from "./assets/company_logo/sizdom_logo.jpg";
@@ -62,9 +62,9 @@ import ghsLogo from "./assets/education_logo/ghs_logo.jpg";
 // Project Section Logos
 // =====================================================
 
-import healthcareQmsLogo from "./assets/work_logo/healthcare_qms.png";
+import healthcareQmsLogo from "./assets/work_logo/ezcare-logo.png";
 import healthcareAiLogo from "./assets/work_logo/healthcare_ai.png";
-import competitionLogo from "./assets/work_logo/competition_logo.png";
+import competitionLogo from "./assets/work_logo/competition_logo.jpeg";
 import orderManagementLogo from "./assets/work_logo/order_management_logo.png";
 import inventoryLogo from "./assets/work_logo/inventory_logo.png";
 
@@ -299,7 +299,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "AI-Enabled Healthcare Queue & Appointment Management System",
+    title: "AI-Enabled Healthcare Queue & Appointment Management System EZCARE",
 
     description:
       "A full-stack healthcare management platform with dedicated patient, doctor, and admin portals. Includes appointment scheduling, live queue management, patient follow-ups, medical records, AI-assisted symptom assessment, conversational patient intake, risk screening, medical report processing, and intelligent doctor routing.",
